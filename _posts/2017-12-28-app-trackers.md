@@ -35,7 +35,7 @@ Their approach consists of three major steps: (1) identifying third-party domain
 Findings
 ========
 
-## The mobile ATS ecosystem
+**The mobile ATS ecosystem**
 
 
 The paper reports that 292 parent organizations own nearly 2,000 ATS and ATS-C domains. Alphabet (Google's parent company) has penetration in over 73% of all measured apps with ownership of only 3.6% of all ATS/ATS-C domains. Domains belonging to the same organization are more likely to co-occur.
@@ -44,13 +44,12 @@ ATS domain co-occurrences
 Jaccard similarity: JS(dom_a, dom_b) = (apps_a AND apps_b)/(apps_a OR apps_b)
 -->
 
-## Application characteristics
+**Application characteristics**
 
 The numbers of trackers: free apps with in-app purchases  > free apps > paid apps. Apps with in-app purchases may have more aggressive monetization strategies.
-
 Games and educational apps are the two categories with the highest number of ATS/ATS-C domains
 Cross-device tracking is widespread: 39% identified ATSes are present as third-parties in at least one of the Alexa top 1000 websites.
 
-## Regulatory challenge
+**Regulatory challenge**
 
 ATS services in US have disproportionately higher access to ATS related data: 40% ATS servers are the end of 73% ATS-related flows. Flows of UIDs from nations in the European Union mostly go to US (89.27%) and China (4.02%).  They are likely to be the most impacted by the upcoming regulations.
