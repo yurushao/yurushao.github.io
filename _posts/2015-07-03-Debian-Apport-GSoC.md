@@ -30,7 +30,7 @@ Now `apport-notifyd` can detect if there has already been a notification daemon 
 
 Sometimes Apport fails to report a crash due to the lack of debugging symbols in the crashed package or its dependencies. When this happens, Apport will prompt a message dialog, telling the user to install absent debug symbols. We added an _install_ button in the dialog, which can let the user install debug symbols immediately, without starting `apport-retrace` manually.
 
-<img src="/media/imgs/20150703_install_debug_symbols.png" />
+![]({{"/assets/images/20150703_install_debug_symbols.png"}})
 
 -> Fig 1. Click "Install" to install debug symbols <-
 
@@ -46,15 +46,14 @@ Debian has a bug tracking system (BTS) in which we file details of bugs reported
 
 We've integrated Debian BTS into Apport. Before reporting a bug of the crashed package users can browse existing bug reports fetched from Debian BTS. They don't need to report it again if the bug has alreadly been reported by someone else! 
 
-<img src="/media/imgs/20150703_apport_main.png" />
+![]({{"/assets/images/20150703_apport_main.png"}})
 
 -> Fig 2. Click "Existing Reports" to view reported bugs <-
 
-
-<img src="/media/imgs/20150703_existing_reports.png" />
+![]({{"/assets/images/20150703_existing_reports.png"}})
 
 -> Fig 3. All existing bug reports <-
 
-<img src="/media/imgs/20150703_report_details.png" />
+<img src="/assets/images/20150703_report_details.png" />
 
--> Fig 4. Display details of one bug report <-
+-> Fig 4. Display details of one bug report <-

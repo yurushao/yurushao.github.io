@@ -21,7 +21,7 @@ tags:
 
 使用了Carbon Copy Cloner这个app，操作起来非常方便。
 
-<img src="/media/imgs/ccc.png" />
+![]({{"/assets/images/ccc.png"}})
 
 左边选择HDD和需要克隆的目录，右边选择目标SSD。因为HDD中的数据量大于SSD的容量，所以对于home目录`/Users/username/`，仅同步其中的用户配置文件就可以了。克隆过程并不慢，我用了大约一小时。
 

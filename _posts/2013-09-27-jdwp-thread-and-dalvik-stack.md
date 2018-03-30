@@ -21,7 +21,7 @@ Dalvik VM启动时的`server`和`suspend`这两个参数决定了jdwp线程的�
 
 从`zygote`进程派生的app的jdwp线程进行采用上面第三种方式启动。所以当从DDM (Dalvik Debug Monitor)中查看线程状态时，jdwp线程的会显示为Runnable.
 
-<img src="/media/imgs/ddm_threads.png" />
+![]({{"/assets/images/ddm_threads.png"}})
 
 `Status`一栏表示线程的状态，守护线程的ID前面用星号(\*)标注。可能的状态有 \[1]：
 
@@ -39,7 +39,7 @@ Dalvik VM启动时的`server`和`suspend`这两个参数决定了jdwp线程的�
 
 从代码角度上分析，`vm/jdwp/JdwpMain.cpp`中的`jdwpThreadStart`是jdwp线程的启动入口。当为server模式时，会进入`dvmJdwpAcceptConnection`函数等待debugger的连接。
 
-<pre class="prettyprint c">
+{% highlight C %}
 static void* jdwpThreadStart(void* arg) 
 {
 	...
@@ -59,11 +59,11 @@ static void* jdwpThreadStart(void* arg)
     }
    	...
 }
-</pre>
+{% endhighlight %}
     
 根据debugger与手机的连接方式不同，`dvmJdwpAcceptConnection`的具体实现也略有区别。当使用TCP方式通信时：
 
-<pre class="prettyprint c">
+{% highlight C %}
 static bool acceptConnection(JdwpState* state)
 {
 	...
@@ -85,7 +85,7 @@ static bool acceptConnection(JdwpState* state)
 
 	...
 }
-</pre>
+{% endhighlight %}
 
 <br />
 
@@ -101,13 +101,13 @@ static bool acceptConnection(JdwpState* state)
 
 在没有调试信息的情况下，可以通过StackFrame获得寄存器，包括参数寄存器和局部变量的值。下面这张图说明了某个方法的栈布局：
 
-<img src="/media/imgs/single_method_stack.png" width="300"/>
+![]({{"/assets/images/single_method_stack.png"}}){:width="300px"}
 
 这个方法总共使用了5个寄存器，`in2`, `in1`, `in0`是方法的参数，占用了3个寄存器；局部变量占用了2个。这个结构与寄存器的p命名法和v命名法 \[2]是相对应的。
 
 `breakSaveBlock`，记录的是break frame的地址，它的作用是能在方法返回或者异常发生时，定位和追踪异常。所以我们在异常产生时，可以通过`printStackTrace`打印当前栈的结构，追踪异常产生的位置。下面这张图 \[3]更加清晰地说明了这个过程。
 
-<img src="/media/imgs/dalvik_stack_overview.png" width="700"/>
+![]({{"/assets/images/dalvik_stack_overview.png"}}){:width="700px"}
 
 至于`saveBlock`，存储的就是帧指针。
 
@@ -122,11 +122,11 @@ Dalvik的代码的jdwp协议实现部分，并没提供对条件断点的支持�
 
 不过要注意的是，Dalvik寄存器的值更新的时机。比如下面这种情况，监控v0，就应该把位置断点下在第二条指令处，因为`move-result`之前，v0的值并没有改变。
 
-<pre class="prettyprint smali">
+{% highlight smali %}
 invoke-virtual {p1}, Landroid/view/MotionEvent;->getRawX()F
 
 move-result v0
-</pre>
+{% endhighlight %}
 
 ## 4. 参考资料
 
