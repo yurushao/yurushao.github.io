@@ -16,7 +16,8 @@ tags:
 
 对Android应用的调试属于远程调试，被调试的app进程和调试器进程运行分别运行在不同的系统中。adb，如其名Android Debug Bridge，在调试的过程中扮演了“桥梁”的角色。下图说明了Android应用程序的调试模型。
 
-<img src="/media/imgs/debug_model.png" height="250px" />
+<!--<img src="/assets/images/debug_model.png" height="250px" />-->
+![]({{"/assets/images/debug_model.png"}}){:height="250px"}
 
 运行在PC上的adb server和运行在Android设备/模拟器中的adbd守护进程通过USB或者无线网络建立连接，分别负责与Debugger和app的Dalvik VM进行通信。更准确地说，每个Dalvik VM中，都有一个jdwp线程负责处理调试器发来的执行调试命令，Debugger实际上是与jdwp线程进行通信。
 
@@ -55,13 +56,14 @@ JDWP中有一个特殊的命令集（Command Set），[EventRequest Command Set]
 
 首先，Debugger会发送一个event request，这个request的格式为：
 
-<img src="/media/imgs/event_request.png" height="180px"/>
+<!--<img src="/media/imgs/event_request.png" height="180px"/>-->
+![]({{"/assets/images/event_request.png"}}){:height="180px"}
 
 对于断点来说，eventKind为BREAKPOINT，suspendPolicy指的是断点发生时程序暂停的方式（仅暂停当前线程还是暂停所有线程），modifiers为Modifier的个数——一个event request可以包含0个或者更多个Modifier。
 
 Modifier可以看做是event的属性，当event较为复杂时就需要多个Modifier进行描述。Modifier包含modKind和data，data部分根据modKind的不同，类型有所区别。它的定义在<code>platform_dalvik/vm/jdwp/JdwpEvent.h</code>，是一个联合体结构：
 
-<pre class="prettyprint c">
+{% highlight c %}
 /*
  * Event modifiers.  A JdwpEvent may have zero or more of these.
  */
@@ -74,7 +76,7 @@ union JdwpEventMod {
    	} locationOnly;
    	...
 };	
-</pre>	
+{% endhighlight %}
 
 比如，对于一个在指定位置（地址）处的断点，data部分为JdwpLocation类型。JdwpLocation类型在<code>platform_dalvik/vm/jdwp/Jdwp.h</code>中定义：
 
@@ -101,7 +103,7 @@ union JdwpEventMod {
 
 Dalvik VM的jdwp线程对event request处理过程在<code>platform_dalvik/vm/jdwp/JdwpHandler.cpp</code>中的<code>handleER_Set</code>函数中完成：
 
-<pre class="prettyprint c">
+{% highlight c %}
 static JdwpError handleER_Set(JdwpState* state,
    	const u1* buf, int dataLen, ExpandBuf* pReply)
 {
@@ -144,11 +146,11 @@ static JdwpError handleER_Set(JdwpState* state,
    	JdwpError err = dvmJdwpRegisterEvent(state, pEvent);
    	...
 }
-</pre>
+{% endhighlight %}
 
 注册事件的代码在<code>platform_dalvik/vm/jdwp/JdwpEvent.cpp</code>中：
 
-<pre class="prettyprint c">
+{% highlight c %}
 JdwpError dvmJdwpRegisterEvent(JdwpState* state, JdwpEvent* pEvent)
 {
 	...
@@ -174,11 +176,11 @@ JdwpError dvmJdwpRegisterEvent(JdwpState* state, JdwpEvent* pEvent)
     state->numEvents++;
 	...
 }
-</pre>
+{% endhighlight %}
 
 <code>dvmDbgWatchLocation</code>函数在<code>platform_dalvik/vm/Debugger.cpp</code>文件中，过程比较简单：
 
-<pre class="prettyprint c">
+{% highlight c %}
 bool dvmDbgWatchLocation(const JdwpLocation* pLoc)
 {
 	// 从method ID构造Method对象
@@ -188,11 +190,11 @@ bool dvmDbgWatchLocation(const JdwpLocation* pLoc)
     dvmAddBreakAddr(method, pLoc->idx);
     return true;        /* assume success */
 }
-</pre>
+{% endhighlight %}
 	
 接下来代码到了Dalvik VM解释器部分的实现中，<code>platform_dalvik/vm/interp/interp.cpp</code>：
 
-<pre class="prettyprint c">
+{% highlight c %}
 void dvmAddBreakAddr(Method* method, unsigned int instrOffset)
 {
 	// 有一个全局的断点集合
@@ -202,11 +204,11 @@ void dvmAddBreakAddr(Method* method, unsigned int instrOffset)
     dvmBreakpointSetAdd(pSet, method, instrOffset);
     dvmBreakpointSetUnlock(pSet);
 }
-</pre>
+{% endhighlight %}
 
 继续看同一文件中<code>dvmBreakpointSetAdd</code>的实现：
 
-<pre class="prettyprint c">
+{% highlight c %}
 static bool dvmBreakpointSetAdd(BreakpointSet* pSet, Method* method,
     unsigned int instrOffset)
 {
@@ -272,11 +274,11 @@ static bool dvmBreakpointSetAdd(BreakpointSet* pSet, Method* method,
 
     return true;
 }
-</pre>
+{% endhighlight %}
 	
 最后进行opcode的修改，在<code>platform_dalvik/vm/DvmDex.cpp</code>中：
 
-<pre class="prettyprint c">
+{% highlight C %}
 bool dvmDexChangeDex1(DvmDex* pDvmDex, u1* addr, u1 newVal)
 {
     if (*addr == newVal) { // 新旧值相同，不需要改
@@ -305,7 +307,7 @@ bool dvmDexChangeDex1(DvmDex* pDvmDex, u1* addr, u1 newVal)
 
     return true;
 }
-</pre>
+{% endhighlight %}
 	
 
 ## 4. 总结
