@@ -14,7 +14,7 @@ My research interest is network and system security. The topics I'm currently wo
   - Cyber-physical system security
 
 
-#Publications
+# Publications
 
   - Felipe Lopez, Yuru Shao, Z. Morley Mao, James Moyne, Kira Barton, Dawn Tilbury. A software-defined framework for the integrated management of smart manufacturing systems. Manufacturing Letters, Vol. 15, Dec. 2017. [[Paper][paper_sdc_framework]]
   - Felipe Lopez, Miguel Saez, Yuru Shao, Efe Balta, James Moyne, Morley Mao, Kira Barton, and Dawn Tilbury. Categorization of Anomalies in Smart Manufacturing Systems to Support the Selection of Detection Mechanisms. IEEE Robotics and Automation Letters, Vol. 2, Issue: 4, Oct. 2017. [[Paper][paper_anomaly_detection]]
@@ -38,14 +38,14 @@ My research interest is network and system security. The topics I'm currently wo
 [paper_leixue_iwqos14]: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6914311
 [paper_chenxiong_dsn14]: http://www4.comp.polyu.edu.hk/~csxluo/NDroid.pdf
 
-#Work Experience
+# Work Experience
 
   - Graduate Research Assistant, Department of Electrical Engineering and Computer Science, University of Michigan. (2014.8~Present)
   - Research Intern, B2B Lab, Samsung Research America. (2016.6~2016.8, 2017.5~2017.8)
   - Research Assistant, Department of Computing, The Hong Kong Polytechnic University. (2013.10~2014.7)
   - Intern, Antiy Labs. (2013.8~2013.10)
 
-#Awards & Honors
+# Awards & Honors
 
   - ACM CCS Student Travel Grant, Association for Computing Machinery (2016)
   - Rackham Conference Travel Grant, University of Michigan (2015, 2016)
