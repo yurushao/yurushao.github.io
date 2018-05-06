@@ -16,15 +16,15 @@ My research interest is network and system security. The topics I'm currently wo
 
 # Publications
 
-  - Felipe Lopez, Yuru Shao, Z. Morley Mao, James Moyne, Kira Barton, Dawn Tilbury. A software-defined framework for the integrated management of smart manufacturing systems. Manufacturing Letters, Vol. 15, Dec. 2017. [[Paper][paper_sdc_framework]]
-  - Felipe Lopez, Miguel Saez, Yuru Shao, Efe Balta, James Moyne, Morley Mao, Kira Barton, and Dawn Tilbury. Categorization of Anomalies in Smart Manufacturing Systems to Support the Selection of Detection Mechanisms. IEEE Robotics and Automation Letters, Vol. 2, Issue: 4, Oct. 2017. [[Paper][paper_anomaly_detection]]
-  - Yuru Shao, Jason Ott, Yunhan Jia, Zhiyun Qian, and Z. Morley Mao. The Misuse of Android Unix Domain Sockets and Security Implications. CCS 2016. (acceptance rate 16.5% = 137/831) [[Paper][paper_ccs16]][[Slides][slides_ccs16]]
-  - Yuru Shao, Jason Ott, Qi Alfred Chen, Zhiyun Qian, and Z. Morley Mao. Kratos: Discovering Inconsistent Security Policy Enforcement in the Android Framework. NDSS 2016. (acceptance rate 15.4% = 60/389) [[Paper][paper_ndss16]][[Slides][slides_ndss16]]
-  - Qi Alfred Chen, Zhiyun Qian, Yunhan Jia, Yuru Shao, and Z. Morley Mao. Static Detection of Packet Injection Vulnerabilities -- A Case for Identifying Attacker-controlled Implicit Information Leaks. CCS 2015. [[Paper][paper_alfred_ccs15]]
-  - Yuru Shao, Xiapu Luo, Chenxiong Qian. Towards a Salable Resource-driven Approach for Detecting Repackaged Android Applications. ACSAC 2014. [[Paper][paper_acsac14]]
-  - Yuru Shao, Xiapu Luo, Chenxiong Qian. RootGuard: Protecting Rooted Android Phones.  IEEE Computer 47(6): 32-40, 2014. (Among the top 10 downloaded articles from the IEEE Computer Society's Digital Library during 2014) [[Paper][paper_rootguard]]
-  - Lei Xue, Xiapu Luo, Yuru Shao. kTRxer: A Portable Toolkit for Reliable Internet Probing. IWQoS 2014. [[Paper][paper_leixue_iwqos14]]
-  - Chenxiong Qian, Xiapu Luo, Yuru Shao. NDroid: Tracking Information Leaks through Java Native Interface in Android Apps. DSN 2014. [[Paper][paper_chenxiong_dsn14]]
+  - Felipe Lopez, Yuru Shao, Z. Morley Mao, James Moyne, Kira Barton, Dawn Tilbury. _A software-defined framework for the integrated management of smart manufacturing systems_. Manufacturing Letters, Vol. 15, Dec. 2017. [[Paper][paper_sdc_framework]]
+  - Felipe Lopez, Miguel Saez, Yuru Shao, Efe Balta, James Moyne, Morley Mao, Kira Barton, and Dawn Tilbury. _Categorization of Anomalies in Smart Manufacturing Systems to Support the Selection of Detection Mechanisms_. IEEE Robotics and Automation Letters, Vol. 2, Issue: 4, Oct. 2017. [[Paper][paper_anomaly_detection]]
+  - Yuru Shao, Jason Ott, Yunhan Jia, Zhiyun Qian, and Z. Morley Mao. _The Misuse of Android Unix Domain Sockets and Security Implications_. CCS 2016. (acceptance rate 16.5% = 137/831) [[Paper][paper_ccs16]][[Slides][slides_ccs16]]
+  - Yuru Shao, Jason Ott, Qi Alfred Chen, Zhiyun Qian, and Z. Morley Mao. _Kratos: Discovering Inconsistent Security Policy Enforcement in the Android Framework_. NDSS 2016. (acceptance rate 15.4% = 60/389) [[Paper][paper_ndss16]][[Slides][slides_ndss16]]
+  - Qi Alfred Chen, Zhiyun Qian, Yunhan Jia, Yuru Shao, and Z. Morley Mao. _Static Detection of Packet Injection Vulnerabilities -- A Case for Identifying Attacker-controlled Implicit Information Leaks_. CCS 2015. [[Paper][paper_alfred_ccs15]]
+  - Yuru Shao, Xiapu Luo, Chenxiong Qian. _Towards a Salable Resource-driven Approach for Detecting Repackaged Android Applications_. ACSAC 2014. [[Paper][paper_acsac14]]
+  - Yuru Shao, Xiapu Luo, Chenxiong Qian. _RootGuard: Protecting Rooted Android Phones_.  IEEE Computer 47(6): 32-40, 2014. (Among the top 10 downloaded articles from the IEEE Computer Society's Digital Library during 2014) [[Paper][paper_rootguard]]
+  - Lei Xue, Xiapu Luo, Yuru Shao. _kTRxer: A Portable Toolkit for Reliable Internet Probing_. IWQoS 2014. [[Paper][paper_leixue_iwqos14]]
+  - Chenxiong Qian, Xiapu Luo, Yuru Shao. _NDroid: Tracking Information Leaks through Java Native Interface in Android Apps_. DSN 2014. [[Paper][paper_chenxiong_dsn14]]
 
 [paper_sdc_framework]: https://www.sciencedirect.com/science/article/pii/S2213846317300767
 [paper_anomaly_detection]: http://ieeexplore.ieee.org/document/7945261/
