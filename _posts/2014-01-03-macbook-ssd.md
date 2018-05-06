@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Macbook安装SSD
+title: Installing an SSD for Macbook Pro (Mid 2012 version)
 categories:
 - Life
 tags:

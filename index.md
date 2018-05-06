@@ -50,5 +50,4 @@ My research interest is network and system security. The topics I'm currently wo
   - ACM CCS Student Travel Grant, Association for Computing Machinery (2016)
   - Rackham Conference Travel Grant, University of Michigan (2015, 2016)
   - USENIX Security Student Travel Grant, USENIX Association (2015)
-  - Outstanding Undergraduate Award, China Computer Federation (2012)
   - Google Excellence Scholarship, Google (2012)

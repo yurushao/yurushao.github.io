@@ -1,6 +1,6 @@
 ---
 layout: post
-title: JDWP线程的启动与Dalvik栈 
+title: JDWP Thread and the Dalvik VM Stack 
 categories: 
 - Tech
 tags: 

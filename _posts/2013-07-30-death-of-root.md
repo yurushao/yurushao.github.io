@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Root已死？
+title: Is Android Rooting Dying?
 categories:
 - Tech
 tags:
