@@ -15,10 +15,15 @@ A programmable logic controller (PLC), or programmable controller is an industri
 2. RSLogix Micro Starter Lite w/o RSLinx ([download][RSLogixMicro]): the tool for writing PLC programs with ladder logic.
 3. RSLinx Classic Lite ([download][RSLinxClassicLite]): for communications among Rockwell networks and devices.
 
+This this [video](https://www.youtube.com/watch?v=tJLEx44HacY) shows how to download the programs.
+
+These programs are Windows-only, and remember to run them with admin privileges (aka, ``as an administrator``).
+
+
 Configure Driver
 ================
 
-RSLinx Classic Lite comes with a bunch of different drivers. By configuring the emulator driver we let our working PC know how to communicate with the emulator. 
+RSLinx Classic Lite comes with a bunch of different drivers. By configuring the emulator driver we let our working PC know how to communicate with the emulator. The ``Station Number`` of the PC is `0`, `Station Name` could be whatever string we like.
 
 
 ![]({{"/assets/images/20180502/RSLinx_configure_driver.gif"}})
@@ -27,13 +32,15 @@ RSLinx Classic Lite comes with a bunch of different drivers. By configuring the 
 Write a Simple Program
 ======================
 
+We write PLC programs using ladder logic in RSLogix Micro. 
+
 ![]({{"/assets/images/20180502/simple_ladder_logic.gif"}})
 
 
 Set Up the Emulator
 ==================
 
-We assign ```1``` to the emulator's ```Station #```, as ```0``` has been taken by the PC.
+We assign ``1`` to the emulator's ``Station #``, as ``0`` has been taken by the PC.
 
 ![]({{"/assets/images/20180502/start_emulator.gif"}})
 
@@ -60,4 +67,5 @@ References
 ==========
 
 [1] https://en.wikipedia.org/wiki/Programmable_logic_controller
+
 [2] https://www.youtube.com/watch?v=t9JoLjiwjtw

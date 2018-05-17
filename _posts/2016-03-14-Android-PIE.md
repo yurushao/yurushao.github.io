@@ -1,6 +1,6 @@
 ---
 layout: post
-title: error only position independent executables (PIE) are supported
+title: Error:only position independent executables (PIE) are supported
 categories:
 - Tech
 tags:

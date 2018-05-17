@@ -51,3 +51,7 @@ My research interest is network and system security. The topics I'm currently wo
   - Rackham Conference Travel Grant, University of Michigan (2015, 2016)
   - USENIX Security Student Travel Grant, USENIX Association (2015)
   - Google Excellence Scholarship, Google (2012)
+
+# Academic Services
+
+  - Journal reviewer: IEEE Transactions on Information Forensics & Security (T-IFS), Journal of Information Security and Applications
