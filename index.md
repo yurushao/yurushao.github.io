@@ -10,8 +10,8 @@ I received my B.Eng. in Computer Science from Wuhan University and used to work 
 
 My research interest is network and system security. The topics I'm currently working on include:
 
-  - Android system security, vulnerability detection 
-  - Cyber-physical system security
+  - Mobile security, vulnerability detection 
+  - Cyber-physical systems security
 
 
 # Publications
