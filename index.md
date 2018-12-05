@@ -16,6 +16,7 @@ My research interest is network and system security. The topics I'm currently wo
 
 # Publications
 
+  - Mu Zhang, Chien-Ying Chen, Bin-Chou Kao, Yassine Qamsane, Yuru Shao, Yikai Lin, Elaine Shi, Sibin Mohan, Kira Barton, James Moyne, Z. Morley Mao. _Towards Automated Safety Vetting of PLC Code in Real-World Plants_. Oakland 2019 (to appear).
   - Lei Xue, Chenxiong Qian, Hao Zhou, Xiapu Luo, Yajin Zhou, Yuru Shao, Alvin T.S. Chan. _NDroid: Towards Tracking Information Flows Across Multiple Android Contexts_. IEEE Transactions on Information Forensics & Security (TIFS), March 2019.
   - Felipe Lopez, Yuru Shao, Z. Morley Mao, James Moyne, Kira Barton, Dawn Tilbury. _A Software-Defined Framework for the Integrated Management of Smart Manufacturing Systems_. Manufacturing Letters, Vol. 15, Jan. 2018. [[Paper][paper_sdc_framework]]
   - Felipe Lopez, Miguel Saez, Yuru Shao, Efe Balta, James Moyne, Morley Mao, Kira Barton, and Dawn Tilbury. _Categorization of Anomalies in Smart Manufacturing Systems to Support the Selection of Detection Mechanisms_. IEEE Robotics and Automation Letters, Vol. 2, Issue: 4, Oct. 2017. [[Paper][paper_anomaly_detection]]
