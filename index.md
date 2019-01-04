@@ -4,7 +4,7 @@ layout: page
 
 [[CV](http://web.eecs.umich.edu/~yurushao/cv/cv_yurushao.pdf)] [[Google Scholar](https://scholar.google.com/citations?user=XT85w60AAAAJ)]
 
-I am a fourth year PhD student in Computer Science and Engineering at the University of Michigan, Ann Arbor, supervised by Prof. [Z. Morley Mao](http://web.eecs.umich.edu/~zmao/).
+I am a fifth year PhD student in Computer Science and Engineering at the University of Michigan, Ann Arbor, supervised by Prof. [Z. Morley Mao](http://web.eecs.umich.edu/~zmao/).
 
 I received my B.Eng. in Computer Science from Wuhan University and used to work at The Hong Kong Polytechnic University as a research assistant with Prof. [Daniel Xiapu Luo](http://www4.comp.polyu.edu.hk/~csxluo/).
 
@@ -16,6 +16,7 @@ My research interest is network and system security. The topics I'm currently wo
 
 # Publications
 
+  - Yuru Shao, Ruowen Wang, Xun Chen, Ahmed Azab, Z. Morley. _A Lightweight Framework for Fine-Grained Lifecycle Control of Android Applications_. EuroSys 2019 (to appear).
   - Mu Zhang, Chien-Ying Chen, Bin-Chou Kao, Yassine Qamsane, Yuru Shao, Yikai Lin, Elaine Shi, Sibin Mohan, Kira Barton, James Moyne, Z. Morley Mao. _Towards Automated Safety Vetting of PLC Code in Real-World Plants_. Oakland 2019 (to appear).
   - Lei Xue, Chenxiong Qian, Hao Zhou, Xiapu Luo, Yajin Zhou, Yuru Shao, Alvin T.S. Chan. _NDroid: Towards Tracking Information Flows Across Multiple Android Contexts_. IEEE Transactions on Information Forensics & Security (TIFS), March 2019.
   - Felipe Lopez, Yuru Shao, Z. Morley Mao, James Moyne, Kira Barton, Dawn Tilbury. _A Software-Defined Framework for the Integrated Management of Smart Manufacturing Systems_. Manufacturing Letters, Vol. 15, Jan. 2018. [[Paper][paper_sdc_framework]]
