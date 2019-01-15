@@ -16,7 +16,8 @@ My research interest is network and system security. The topics I'm currently wo
 
 # Publications
 
-  - Yuru Shao, Ruowen Wang, Xun Chen, Ahmed Azab, Z. Morley. _A Lightweight Framework for Fine-Grained Lifecycle Control of Android Applications_. EuroSys 2019 (to appear).
+  - Yikai Lin, Yuru Shao, Xiao Zhu, Junpeng Guo, Kira Barton, Z. Morley Mao. _ADD: Application-Centric Data-Driven Controller Design_. SOSR 2019.
+  - Yuru Shao, Ruowen Wang, Xun Chen, Ahmed Azab, Z. Morley Mao. _A Lightweight Framework for Fine-Grained Lifecycle Control of Android Applications_. EuroSys 2019 (to appear).
   - Mu Zhang, Chien-Ying Chen, Bin-Chou Kao, Yassine Qamsane, Yuru Shao, Yikai Lin, Elaine Shi, Sibin Mohan, Kira Barton, James Moyne, Z. Morley Mao. _Towards Automated Safety Vetting of PLC Code in Real-World Plants_. Oakland 2019 (to appear).
   - Lei Xue, Chenxiong Qian, Hao Zhou, Xiapu Luo, Yajin Zhou, Yuru Shao, Alvin T.S. Chan. _NDroid: Towards Tracking Information Flows Across Multiple Android Contexts_. IEEE Transactions on Information Forensics & Security (TIFS), March 2019.
   - Felipe Lopez, Yuru Shao, Z. Morley Mao, James Moyne, Kira Barton, Dawn Tilbury. _A Software-Defined Framework for the Integrated Management of Smart Manufacturing Systems_. Manufacturing Letters, Vol. 15, Jan. 2018. [[Paper][paper_sdc_framework]]
