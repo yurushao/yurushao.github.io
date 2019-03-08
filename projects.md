@@ -10,7 +10,11 @@ We detect inconsistencies in access control policy enforcement in the Android fr
 
 ## Unix domain sockets security
 
-We conduct the first systematic study in understanding the security properties of the usage of Unix domain sockets by both Android apps and system daemons as IPC channels, especially for cross-layer communications between the Java and the native layers.
+We conduct the first systematic study in understanding the security properties of the usage of Unix domain sockets by both Android apps and system daemons as IPC channels, especially for cross-layer communications between the Java and the native layers. Vulnerabilities we discoverd in this study include:
+
+* [Exploiting KingRoot v4.8.2 to gain root access](https://youtu.be/FfafSZNfqcA)
+* [Changing permissions of an arbitrary file by exploiting ES File Explorer v4.0.5.2](https://youtu.be/kke_6NKwhFM)
+* [Factory reset attack by exploiting LG AT daemon](https://youtu.be/Ws114S7A1R4) 
 
 ## Diehard apps
 

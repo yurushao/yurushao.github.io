@@ -54,11 +54,11 @@ My research interest is network and system security. The topics I'm currently wo
 
 # Work Experience
 
-  - Graduate Research Assistant, Department of Electrical Engineering and Computer Science, University of Michigan. (2014.8~Present)
-  - Software Engineer Intern, Facebook. (2018.6~2018.8)
-  - Research Intern, B2B Lab, Samsung Research America. (2016.6~2016.8, 2017.5~2017.8)
-  - Research Assistant, Department of Computing, The Hong Kong Polytechnic University. (2013.10~2014.7)
-  - Intern, Antiy Labs. (2013.8~2013.10)
+  - Graduate Research Assistant, Department of Electrical Engineering and Computer Science, University of Michigan. (Aug 2014 -- Present)
+  - Software Engineer Intern, Facebook. (Jun 2018 -- Aug 2018)
+  - Research Intern, B2B Lab, Samsung Research America. (Jun 2016 -- Aug 2016, May 2017 -- Aug 2017)
+  - Research Assistant, Department of Computing, The Hong Kong Polytechnic University. (Oct 2013 -- Jul 2014)
+  - Intern, Antiy Labs. (Aug 2013 -- Oct 2013)
 
 # Awards & Honors
 
@@ -70,5 +70,5 @@ My research interest is network and system security. The topics I'm currently wo
 # Academic Services
 
   - Journal reviewer
-    - IEEE Transactions on Information Forensics & Security (T-IFS)
+    - IEEE Transactions on Information Forensics & Security
     - Journal of Information Security and Applications
