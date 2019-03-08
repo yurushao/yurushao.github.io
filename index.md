@@ -16,7 +16,7 @@ My research interest is network and system security. The topics I'm currently wo
 
 # Publications
 
-  - Yikai Lin, Yuru Shao, Xiao Zhu, Junpeng Guo, Kira Barton, Z. Morley Mao. _ADD: Application-Centric Data-Driven Controller Design_. SOSR 2019 (to appear).
+  - Yikai Lin, Yuru Shao, Xiao Zhu, Junpeng Guo, Kira Barton, Z. Morley Mao. _ADD: Application and Data-Driven Controller Design_. SOSR 2019 (to appear).
   - Yuru Shao, Ruowen Wang, Xun Chen, Ahmed Azab, Z. Morley Mao. _A Lightweight Framework for Fine-Grained Lifecycle Control of Android Applications_. EuroSys 2019 (to appear).
   - Mu Zhang, Chien-Ying Chen, Bin-Chou Kao, Yassine Qamsane, Yuru Shao, Yikai Lin, Elaine Shi, Sibin Mohan, Kira Barton, James Moyne, Z. Morley Mao. _Towards Automated Safety Vetting of PLC Code in Real-World Plants_. Oakland 2019. [[Paper][paper_oakland19]]
   - Lei Xue, Chenxiong Qian, Hao Zhou, Xiapu Luo, Yajin Zhou, Yuru Shao, Alvin T.S. Chan. _NDroid: Towards Tracking Information Flows Across Multiple Android Contexts_. IEEE Transactions on Information Forensics & Security (TIFS), March 2019. [[Paper][paper_ndroid_tifs]]
@@ -46,8 +46,10 @@ My research interest is network and system security. The topics I'm currently wo
 
 # Posters
 
+  - Yikai Lin, Yuru Shao, Xiao Zhu, Junpeng Guo, Kira Barton, Z. Morley Mao. _ADD: Application and Data-Driven Controller Design_. [[PDF][poster_add_sosr2019]]
   - Yuru Shao, Ruowang Zhang, Andrew Ramacher, Kira Barton, Z. Morley Mao. _Context-Aware Intrusion Detection in Smart Manufacturing Systems_. The 2018 MIDAS Annual Symposium. [[PDF][poster_midas2018]]
 
+[poster_add_sosr2019]: http://web.eecs.umich.edu/~yurushao/pubs/SOSR2019_ADD_poster.pdf
 [poster_midas2018]: http://web.eecs.umich.edu/~yurushao/pubs/MIDAS2018_poster.pdf
 
 # Work Experience
