@@ -2,7 +2,9 @@
 layout: page
 ---
 
-[[CV](http://web.eecs.umich.edu/~yurushao/cv/cv_yurushao.pdf)] [[Google Scholar](https://scholar.google.com/citations?user=XT85w60AAAAJ)]
+
+
+<img src="/assets/images/icons/cv.png" width="20"/> [Curriculum Vitae](http://web.eecs.umich.edu/~yurushao/cv/cv_yurushao.pdf) <img src="/assets/images/icons/google_scholar.png" width="20"/> [Google Scholar](https://scholar.google.com/citations?user=XT85w60AAAAJ)
 
 I am a fifth year PhD student in Computer Science and Engineering at the University of Michigan, Ann Arbor, supervised by Prof. [Z. Morley Mao](http://web.eecs.umich.edu/~zmao/).
 
