@@ -19,7 +19,7 @@ My research interest is network and system security. The topics I'm currently wo
 # Publications
 
   - Yikai Lin, Yuru Shao, Xiao Zhu, Junpeng Guo, Kira Barton, Z. Morley Mao. _ADD: Application and Data-Driven Controller Design_. SOSR 2019 (to appear).
-  - Yuru Shao, Ruowen Wang, Xun Chen, Ahmed Azab, Z. Morley Mao. _A Lightweight Framework for Fine-Grained Lifecycle Control of Android Applications_. EuroSys 2019 (to appear).
+  - Yuru Shao, Ruowen Wang, Xun Chen, Ahmed Azab, Z. Morley Mao. _A Lightweight Framework for Fine-Grained Lifecycle Control of Android Applications_. EuroSys 2019. [[Paper][paper_eurosys19]]
   - Mu Zhang, Chien-Ying Chen, Bin-Chou Kao, Yassine Qamsane, Yuru Shao, Yikai Lin, Elaine Shi, Sibin Mohan, Kira Barton, James Moyne, Z. Morley Mao. _Towards Automated Safety Vetting of PLC Code in Real-World Plants_. Oakland 2019. [[Paper][paper_oakland19]]
   - Lei Xue, Chenxiong Qian, Hao Zhou, Xiapu Luo, Yajin Zhou, Yuru Shao, Alvin T.S. Chan. _NDroid: Towards Tracking Information Flows Across Multiple Android Contexts_. IEEE Transactions on Information Forensics & Security (TIFS), March 2019. [[Paper][paper_ndroid_tifs]]
   - Felipe Lopez, Yuru Shao, Z. Morley Mao, James Moyne, Kira Barton, Dawn Tilbury. _A Software-Defined Framework for the Integrated Management of Smart Manufacturing Systems_. Manufacturing Letters, Vol. 15, Jan. 2018. [[Paper][paper_sdc_framework]]
@@ -32,6 +32,7 @@ My research interest is network and system security. The topics I'm currently wo
   - Lei Xue, Xiapu Luo, Yuru Shao. _kTRxer: A Portable Toolkit for Reliable Internet Probing_. IWQoS 2014. [[Paper][paper_leixue_iwqos14]]
   - Chenxiong Qian, Xiapu Luo, Yuru Shao. _NDroid: Tracking Information Leaks through Java Native Interface in Android Apps_. DSN 2014. [[Paper][paper_chenxiong_dsn14]]
 
+[paper_eurosys19]: /assets/papers/diehard_eurosys19.pdf
 [paper_oakland19]: https://drive.google.com/file/d/14_zxjyMYyJxJEj0wPkCOaNA7F2FCY9jE
 [paper_sdc_framework]: https://www.sciencedirect.com/science/article/pii/S2213846317300767
 [paper_ndroid_tifs]: https://ieeexplore.ieee.org/document/8443386
@@ -56,7 +57,7 @@ My research interest is network and system security. The topics I'm currently wo
 
 # Work Experience
 
-  - Graduate Research Assistant, Department of Electrical Engineering and Computer Science, University of Michigan. (Aug 2014 -- Present)
+  - Graduate Research Assistant, Department of Electrical Engineering and Computer Science, University of Michigan. (Aug 2014 -- Mar 2019)
   - Software Engineer Intern, Facebook. (Jun 2018 -- Aug 2018)
   - Research Intern, B2B Lab, Samsung Research America. (Jun 2016 -- Aug 2016, May 2017 -- Aug 2017)
   - Research Assistant, Department of Computing, The Hong Kong Polytechnic University. (Oct 2013 -- Jul 2014)
