@@ -6,7 +6,7 @@ layout: page
 
 <img src="/assets/images/icons/cv.png" width="20"/> [Curriculum Vitae](http://web.eecs.umich.edu/~yurushao/cv/cv_yurushao.pdf) <img src="/assets/images/icons/google_scholar.png" width="20"/> [Google Scholar](https://scholar.google.com/citations?user=XT85w60AAAAJ)
 
-I am a fifth year PhD student in Computer Science and Engineering at the University of Michigan, Ann Arbor, supervised by Prof. [Z. Morley Mao](http://web.eecs.umich.edu/~zmao/).
+I earned my PhD in Computer Science and Engineering from the University of Michigan, Ann Arbor. My supervised was Prof. [Z. Morley Mao](http://web.eecs.umich.edu/~zmao/).
 
 I received my B.Eng. in Computer Science from Wuhan University and used to work at The Hong Kong Polytechnic University as a research assistant with Prof. [Daniel Xiapu Luo](http://www4.comp.polyu.edu.hk/~csxluo/).
 
