@@ -25,11 +25,15 @@ github_username: yurushao
 instagram_username: yurushaom
 author: Yuru Shao
 
+paginate: 10
+paginate_path: /blog/page/:num/
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
