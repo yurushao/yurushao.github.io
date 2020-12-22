@@ -2,19 +2,25 @@
 layout: page
 ---
 
-
-
-<img src="/assets/images/icons/cv.png" width="20"/> [Curriculum Vitae](http://web.eecs.umich.edu/~yurushao/cv/cv_yurushao.pdf) <img src="/assets/images/icons/google_scholar.png" width="20"/> [Google Scholar](https://scholar.google.com/citations?user=XT85w60AAAAJ)
+<img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="20"/>[LinkedIn](https://www.linkedin.com/in/yurushao) <img src="/assets/images/icons/google_scholar.png" width="20"/> [Google Scholar](https://scholar.google.com/citations?user=XT85w60AAAAJ)
 
 I earned my PhD in Computer Science and Engineering from the University of Michigan, Ann Arbor. My supervised was Prof. [Z. Morley Mao](http://web.eecs.umich.edu/~zmao/).
 
 I received my B.Eng. in Computer Science from Wuhan University and used to work at The Hong Kong Polytechnic University as a research assistant with Prof. [Daniel Xiapu Luo](http://www4.comp.polyu.edu.hk/~csxluo/).
 
+<!--
 My research interest is network and system security. The topics I'm currently working on include:
 
   - Mobile security, vulnerability detection 
   - Cyber-physical systems security
+-->
 
+# Work Experience
+  - Pinterest, Senior Software Engineer. (April 2019 -- )
+  - Graduate Research Assistant, Department of Electrical Engineering and Computer Science, University of Michigan. (Aug 2014 -- Mar 2019)
+  - Software Engineer Intern, Facebook. (Jun 2018 -- Aug 2018)
+  - Research Intern, B2B Lab, Samsung Research America. (Jun 2016 -- Aug 2016, May 2017 -- Aug 2017)
+  - Research Assistant, Department of Computing, The Hong Kong Polytechnic University. (Oct 2013 -- Jul 2014)
 
 # Publications
 
@@ -50,6 +56,7 @@ My research interest is network and system security. The topics I'm currently wo
 [paper_leixue_iwqos14]: http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6914311
 [paper_chenxiong_dsn14]: http://www4.comp.polyu.edu.hk/~csxluo/NDroid.pdf
 
+<!--
 # Posters
 
   - Yikai Lin, Yuru Shao, Xiao Zhu, Junpeng Guo, Kira Barton, Z. Morley Mao. _ADD: Application and Data-Driven Controller Design_. [[PDF][poster_add_sosr2019]]
@@ -57,21 +64,18 @@ My research interest is network and system security. The topics I'm currently wo
 
 [poster_add_sosr2019]: http://web.eecs.umich.edu/~yurushao/pubs/SOSR2019_ADD_poster.pdf
 [poster_midas2018]: http://web.eecs.umich.edu/~yurushao/pubs/MIDAS2018_poster.pdf
+-->
 
-# Work Experience
+<!--  - Intern, Antiy Labs. (Aug 2013 -- Oct 2013) -->
 
-  - Graduate Research Assistant, Department of Electrical Engineering and Computer Science, University of Michigan. (Aug 2014 -- Mar 2019)
-  - Software Engineer Intern, Facebook. (Jun 2018 -- Aug 2018)
-  - Research Intern, B2B Lab, Samsung Research America. (Jun 2016 -- Aug 2016, May 2017 -- Aug 2017)
-  - Research Assistant, Department of Computing, The Hong Kong Polytechnic University. (Oct 2013 -- Jul 2014)
-  - Intern, Antiy Labs. (Aug 2013 -- Oct 2013)
-
+<!--
 # Awards & Honors
 
   - ACM CCS Student Travel Grant, Association for Computing Machinery (2016)
   - Rackham Conference Travel Grant, University of Michigan (2015, 2016)
   - USENIX Security Student Travel Grant, USENIX Association (2015)
   - Google Excellence Scholarship, Google (2012)
+-->
 
 # Academic Services
 
