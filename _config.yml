@@ -14,15 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Yuru Shao's homepage
-email: yurushao{at}umich.edu
-email2: shaoyuru{at}gmail.com
+email: shaoyuru{at}gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
     Powered by Jekyll with the Minima theme.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: yurushao
 github_username: yurushao
-instagram_username: yurushaom
 author: Yuru Shao
 
 paginate: 10
