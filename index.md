@@ -4,21 +4,12 @@ layout: page
 
 <img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="20"/>[LinkedIn](https://www.linkedin.com/in/yurushao) <img src="/assets/images/icons/google_scholar.png" width="20"/> [Google Scholar](https://scholar.google.com/citations?user=XT85w60AAAAJ)
 
-I'm a senior software engineer on Pinterest's Product Security team. I love pinning cats. Follow me on Pinterest:
+I'm a Staff Software Engineer and Product Security Lead at Pinterest. I love pinning cats. Follow me on Pinterest:
 
 <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 <a data-pin-do="embedUser" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/CuteCatsOverload/"></a>
 
 I earned my PhD in Computer Science and Engineering from the University of Michigan, Ann Arbor. My supervised was Prof. [Z. Morley Mao](http://web.eecs.umich.edu/~zmao/).
-
-<!--
-I received my B.Eng. in Computer Science from Wuhan University and used to work at The Hong Kong Polytechnic University as a research assistant with Prof. [Daniel Xiapu Luo](http://www4.comp.polyu.edu.hk/~csxluo/).
-
-My research interest is network and system security. The topics I'm currently working on include:
-
-  - Mobile security, vulnerability detection 
-  - Cyber-physical systems security
--->
 
 # Recent Blogs & Talks
   - [How We Protect Pinners' Passwords][blog_password_sec] (Pinterest Engineering blog)
@@ -28,7 +19,7 @@ My research interest is network and system security. The topics I'm currently wo
 [recaptcha]: /assets/pdf/reCAPTCHA_Wins_and_Learns.pdf
 
 # Work Experience
-  - Pinterest, Senior Software Engineer. (April 2019 -- )
+  - Product Security, Pinterest (April 2019 -- )
   - Graduate Research Assistant, Department of Electrical Engineering and Computer Science, University of Michigan. (Aug 2014 -- Mar 2019)
   - Software Engineer Intern, Facebook. (Jun 2018 -- Aug 2018)
   - Research Intern, B2B Lab, Samsung Research America. (Jun 2016 -- Aug 2016, May 2017 -- Aug 2017)
