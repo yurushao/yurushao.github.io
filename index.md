@@ -7,7 +7,7 @@ layout: page
 I'm a Staff Software Engineer and Product Security Lead at Pinterest. I love pinning cats. Follow me on Pinterest:
 
 <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
-<a data-pin-do="embedUser" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/CuteCatsOverload/"></a>
+<a data-pin-do="embedUser" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/MeowsterMedia/"></a>
 
 I earned my PhD in Computer Science and Engineering from the University of Michigan, Ann Arbor. My supervised was Prof. [Z. Morley Mao](http://web.eecs.umich.edu/~zmao/).
 
