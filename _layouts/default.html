@@ -14,7 +14,13 @@
     </main>
 
     {%- include footer.html -%}
-    
+
+    <!-- Dark mode toggle button -->
+    <button class="theme-toggle" aria-label="Toggle dark mode">
+      <span class="moon-icon">🌙</span>
+      <span class="sun-icon">☀️</span>
+    </button>
+
     {%- if jekyll.environment == 'production' -%}
         {%- include analytics.html -%}
     {%- endif -%}
