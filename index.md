@@ -2,24 +2,26 @@
 layout: page
 ---
 
-<img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="20"/>[LinkedIn](https://www.linkedin.com/in/yurushao) <img src="/assets/images/icons/google_scholar.png" width="20"/> [Google Scholar](https://scholar.google.com/citations?user=XT85w60AAAAJ)
+<img src="https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg" width="20"/>[LinkedIn](https://www.linkedin.com/in/yurushao) 
 
-I'm a Staff Software Engineer and Product Security Lead at Pinterest. I love pinning cats. Follow me on Pinterest:
 
-<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
-<a data-pin-do="embedUser" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/MeowsterMedia/"></a>
+<!-- <img src="/assets/images/icons/google_scholar.png" width="20"/> [Google Scholar](https://scholar.google.com/citations?user=XT85w60AAAAJ) -->
+
+I'm building [GLAM](https://www.glam.systems/), an asset management infrastructure for internet capital markets. Previously, I was an Engineering Manager and Product Security Lead at Pinterest.
 
 I earned my PhD in Computer Science and Engineering from the University of Michigan, Ann Arbor. My advisor was Prof. [Z. Morley Mao](http://web.eecs.umich.edu/~zmao/).
 
-# Recent Blogs & Talks
+  - [Mitigating Supply Chain Attacks with Onchain Access Control and Timelocks][supply-chain-attacks] (GLAM blog)
   - [How We Protect Pinners' Passwords][blog_password_sec] (Pinterest Engineering blog)
   - [Wins and learns from the integration of reCAPTCHA at Pinterest][recaptcha] (BSidesSF'22)
 
+[supply-chain-attacks]: https://www.glam.systems/blog/mitigating-supply-chain-attacks-with-onchain-access-control-and-timelocks
 [blog_password_sec]: https://medium.com/pinterest-engineering/how-we-protect-pinners-passwords-e769135734d
 [recaptcha]: /assets/pdf/reCAPTCHA_Wins_and_Learns.pdf
 
 # Work Experience
-  - Product Security, Pinterest (April 2019 -- )
+  - Cofounder, GLAM (Feb 2025 -- )
+  - Product Security, Pinterest (April 2019 -- Feb 2025)
   - Graduate Research Assistant, Department of Electrical Engineering and Computer Science, University of Michigan. (Aug 2014 -- Mar 2019)
   - Software Engineer Intern, Facebook. (Jun 2018 -- Aug 2018)
   - Research Intern, B2B Lab, Samsung Research America. (Jun 2016 -- Aug 2016, May 2017 -- Aug 2017)
