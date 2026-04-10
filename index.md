@@ -82,6 +82,15 @@ I earned my PhD in Computer Science and Engineering from the University of Michi
   - Google Excellence Scholarship, Google (2012)
 -->
 
+# Security Acknowledgements
+
+  - [Android Security Acknowledgements][android_ack]
+  - [CVE-2016-3898][cve_2016_3898] ([Android Security Bulletin—September 2016][bulletin_2016_09])
+
+[android_ack]: https://source.android.com/docs/security/overview/acknowledgements
+[cve_2016_3898]: https://nvd.nist.gov/vuln/detail/CVE-2016-3898
+[bulletin_2016_09]: https://source.android.com/docs/security/bulletin/2016-09-01
+
 # Academic Services
 
   - Journal reviewer
